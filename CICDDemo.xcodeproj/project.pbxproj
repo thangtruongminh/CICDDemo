@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		606DB0FF2697E3AE00AE555F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606DB0FE2697E3AE00AE555F /* Alert.swift */; };
+		606DB1012697E3F200AE555F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606DB1002697E3F200AE555F /* DetailsViewController.swift */; };
 		60D3D2A12696FC8A00C3FD11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D3D2A02696FC8A00C3FD11 /* AppDelegate.swift */; };
 		60D3D2A32696FC8A00C3FD11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D3D2A22696FC8A00C3FD11 /* SceneDelegate.swift */; };
 		60D3D2A52696FC8A00C3FD11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D3D2A42696FC8A00C3FD11 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		606DB0FE2697E3AE00AE555F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		606DB1002697E3F200AE555F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		60D3D29D2696FC8A00C3FD11 /* CICDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CICDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D3D2A02696FC8A00C3FD11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60D3D2A22696FC8A00C3FD11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,7 +93,6 @@
 				FC68AFDBC04373A606C28C93 /* Pods-CICDDemo.debug.xcconfig */,
 				9DD51ABD38C2990DF986D19F /* Pods-CICDDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -121,7 +124,9 @@
 				60D3D2A02696FC8A00C3FD11 /* AppDelegate.swift */,
 				60D3D2A22696FC8A00C3FD11 /* SceneDelegate.swift */,
 				60D3D2A42696FC8A00C3FD11 /* ViewController.swift */,
+				606DB0FE2697E3AE00AE555F /* Alert.swift */,
 				60D3D2A62696FC8A00C3FD11 /* Main.storyboard */,
+				606DB1002697E3F200AE555F /* DetailsViewController.swift */,
 				60D3D2AC2696FC8D00C3FD11 /* Assets.xcassets */,
 				60D3D2AE2696FC8D00C3FD11 /* LaunchScreen.storyboard */,
 				60D3D2B12696FC8D00C3FD11 /* Info.plist */,
@@ -315,7 +320,9 @@
 				60D3D2A52696FC8A00C3FD11 /* ViewController.swift in Sources */,
 				60D3D2AB2696FC8A00C3FD11 /* CICDDemo.xcdatamodeld in Sources */,
 				60D3D2A12696FC8A00C3FD11 /* AppDelegate.swift in Sources */,
+				606DB0FF2697E3AE00AE555F /* Alert.swift in Sources */,
 				60D3D2A32696FC8A00C3FD11 /* SceneDelegate.swift in Sources */,
+				606DB1012697E3F200AE555F /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
